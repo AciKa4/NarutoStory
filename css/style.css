@@ -1,0 +1,127 @@
+@font-face{
+	src:url("njnaruto.ttf");
+	font-family:'font';
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e6ede6;
+    font-family:'font';
+}
+.cleaner{
+    clear:both;
+}
+.linkAktivan a{
+    color:#fff;
+}
+.opacity{
+    background-color:rgba(52, 58, 64,0.8) ;
+}
+.bg-slika{
+    background-image:url(../img/bg.png);
+    min-height:650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+}
+.paddingtop{
+    padding-top:200px;
+}
+
+ /*HOME */
+
+.itachi{
+    background-image: url("../img/itachipic.jpg");
+    min-height:750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.konoha2{
+    background-image: url("../img/konoha2.jpeg");
+    min-height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+    /*FOOTER */
+
+.footer{
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.slika img{
+    float:left;
+}
+.bgboja{
+    background-color: rgba(34, 32, 46, 0.9);
+}
+
+/* MATERIALIZE/KAGES*/
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+.marginatop{
+    margin-top:150px;
+}
+.fleks{
+    display:flex;
+    justify-content: space-around;
+}
+.pad{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+/* AUTHOR PAGE*/
+
+.profile{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 500px;
+}
+.tekst1{
+    font-size:20px;
+}
+
+
+    /* MEDIA QUIERY*/
+@media screen and (max-width: 987px){
+        .tekst1{
+            padding-top:5px;
+            text-align:center;
+            font-size:16px;
+        }
+}
+
+@media screen and (max-width: 745px){
+    .village{
+        width:90%; 
+    }
+    .sasukebg{
+        min-height:450px;
+    }
+}
+@media screen and (max-width: 575px){
+    .centrirano{
+        text-align: center !important;
+    }
+}

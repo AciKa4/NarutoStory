@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmnls="https://www.sitemaps.org/schemas/sitemap/0.9/">
+	<url>
+		<loc>https://acika4.github.io/NarutoStory/index.html</loc>
+		<lastmod>2020-16-6</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://acika4.github.io/NarutoStory/nations.html</loc>
+		<lastmod>2020-16-6</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://acika4.github.io/NarutoStory/kages.html</loc>
+		<lastmod>2020-16-6</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://acika4.github.io/NarutoStory/author.html</loc>
+		<lastmod>2020-16-6</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+</urlset>
